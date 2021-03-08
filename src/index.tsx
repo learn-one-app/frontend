@@ -1,6 +1,5 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import './index.css'
 import '@alicloud/console-components/dist/wind.css'
 import App from './App'
 import reportWebVitals from './reportWebVitals'

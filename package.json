@@ -11,6 +11,8 @@
     "@types/node": "^12.0.0",
     "@types/react": "^17.0.0",
     "@types/react-dom": "^17.0.0",
+    "axios": "^0.21.1",
+    "lodash": "^4.17.21",
     "moment": "^2.29.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
@@ -42,5 +44,11 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "proxy": "http://127.0.0.1:7001",
+  "devDependencies": {
+    "@types/lodash": "^4.14.168",
+    "@types/styled-components": "^5.1.7",
+    "eslint-plugin-react-hooks": "^0.0.0-ee4326357"
   }
 }
