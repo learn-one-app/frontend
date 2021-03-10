@@ -1,16 +1,16 @@
-import axios, { AxiosRequestConfig } from 'axios'
-// import Cookies from 'js-cookie'
+import axios, { AxiosRequestConfig } from 'axios';
+import Cookies from 'js-cookie';
 
 function request(options: AxiosRequestConfig) {
   return axios({
     ...options,
     headers: {
-      'x-csrf-token': 'ObBFb_SPkYh21peXVKy-CN4A',
+      'x-csrf-token': Cookies.get('csrfToken'),
     },
-  })
+  });
 }
 
-export default request
+export default request;
 
 // if (axiosOptions.method === 'get') {
 //     opts = {
